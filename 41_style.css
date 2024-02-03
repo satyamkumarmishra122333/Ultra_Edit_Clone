@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+
+.navlogo {
+    display: flex;
+    margin-left: 141px;
+    justify-content: center;
+
+}
+
+.navlogo ul {
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+    margin-left: 62px;
+
+
+}
+
+.navlogo ul li {
+    padding: 0px 10px;
+
+}
+
+select {
+    border: none;
+}
+
+.navlogo img {
+    margin-top: -55px;
+    margin-right: 50px;
+}
+
+.heading,
+.headinglogo {
+    display: inline;
+
+}
+
+.heading {
+    margin-left: 580px;
+    font-size: 25px;
+}
+
+.heading img {
+    margin-bottom: -20px;
+}
+
+.description p {
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.downloadbutton {
+    display: flex;
+    text-align: center;
+    background-color: rgba(2, 181, 211, 255);
+    color: white;
+    margin-left: 670px;
+    margin-top: 20px;
+    
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 10px;
+    width: fit-content;
+    padding: 0 20px;
+}
+
+.belowbutton li {
+
+    list-style: none;
+    display: inline;
+    padding: 0 5px;
+
+}
+
+.belowbutton {
+    display: flex;
+
+    margin-left: 230px;
+    margin-top: 50px;
+}
+
+.belowbutton img {
+    margin-top: -7px;
+}
+
+.subscript {
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.content li {
+    list-style: none;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.container {
+    background-color: #f2f3f3;
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin: 20px 10px;
+
+}
+
+.content li:nth-child(2) {
+    /* display: inline-block; */
+    background-color: rgba(2, 181, 211, 255);
+    margin-right: 6px;
+    color: white;
+    padding: 6px;
+    margin-left: 6px;
+    margin-top: 50px;
+    width: 40%;
+    font-size: small;
+
+}
+
+.content li:nth-child(3) {
+    background-color: rgba(86, 167, 90, 255);
+    color: white;
+    padding: 6px;
+    width: 40%;
+    font-size: small;
+
+}
+
+.content:first-child {
+    text-align: center;
+    font-weight: 700;
+
+
+}
+
+.head {
+    margin-top: 20px;
+}
+
+.content {
+
+    padding-top: 15px;
+
+}
+
+.card {
+  
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    margin-right: 250px;
+    justify-content: center;
+}
